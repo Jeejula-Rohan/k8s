@@ -172,9 +172,9 @@ If it returns an `arn:aws:iam::xxxxx:oidc-provider/`, OIDC is successfully assoc
 
 ## **2. Managing Clusters**  
 
-### **List all EKS Clusters**  
+### **list all the Amazon EKS clusters in your AWS account for a specific region**  
 ```bash
-eksctl get cluster
+aws eks list-clusters --region us-east-1
 ```
   
 ### **View All Resources in the Cluster**  
